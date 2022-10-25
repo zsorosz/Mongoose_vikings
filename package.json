@@ -6,8 +6,8 @@
   },
   "private": true,
   "scripts": {
-    "start": "node server.js",
-    "dev": "nodemon --ext '*' server.js"
+    "start": "node index.js",
+    "dev": "nodemon --ext '*' index.js"
   },
   "dependencies": {
     "mongoose": "^6.6.7"
