@@ -7,7 +7,7 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon --ext '*' index.js"
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "mongoose": "^6.6.7"
