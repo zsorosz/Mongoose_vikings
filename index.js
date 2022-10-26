@@ -1,5 +1,4 @@
 //Make sure to require your model so you can connect to the DB
-
 //This line of code connects to the Database
 require("./db");
 

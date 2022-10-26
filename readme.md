@@ -8,7 +8,7 @@ Congratulations!!! You finished iteration 1
 
 Iteration 2:
 create a schema and model for a viking
-Schema should have a name(string), familyName(string), strength(Number), weapon(string)
+Schema should have a firstName(string), familyName(string), strength(Number), weapon(string)
 Name and Family name should be required, others are optional
 
 Once you have the schema, you can make your model using the schema you created.
