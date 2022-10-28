@@ -1,5 +1,6 @@
 //Make sure to require your model so you can connect to the DB
 //<========Model of viking to connect the backend to the DB
+const { default: mongoose } = require("mongoose");
 const VikingModel = require("./models/User");
 //This line of code connects to the Database
 require("./db");
@@ -51,6 +52,7 @@ VikingModel.create(Ragnar)
       "Now many viking warriors are in Valhalla!",
       arrayOfVikingsInDB
     );
+    //updated viking to 10000 strength, he is now Odin
     return VikingModel.findOneAndUpdate(
       { firstName: "Ragnar" },
       { strength: 10000 },
@@ -59,9 +61,10 @@ VikingModel.create(Ragnar)
   })
   .then((updatedViking) => {
     console.log("A viking was updated", updatedViking);
+    //Note: Make sure to close your DB connection afterwards
+    return mongoose.connection.close();
+  })
+  .then(() => {
+    console.log("The connection is now closed :)");
   })
   .catch((err) => console.log(err));
-//Note: Make sure to close your DB connection afterwards
-
-//Iteration 4:
-//Find the user that you created and update their name to something new
