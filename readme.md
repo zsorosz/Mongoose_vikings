@@ -3,7 +3,7 @@ run npm i to install all dependencies
 
 connect to the Database by running npm run dev
 
-when you have a console log of `Connected to Mongo! Database mongoose-practice`, then you are connected!
+when you have a console log of `Connected to Mongo! Welcome to Valhalla!  🪓🛡️☠️`, then you are connected!
 Congratulations!!! You finished iteration 1
 
 Iteration 2:
