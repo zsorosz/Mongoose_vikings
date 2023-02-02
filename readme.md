@@ -24,4 +24,6 @@ Now create an array of vikings that all fit the schema and 'insert many' of them
 
 After you have the array in your collection, choose one viking and update his strength to 1000. (he is now Odin)
 
-Amazing job! If you get stuck then always ask for help. The lone wolf starves during the long winter, but the pack survives ;)
+Amazing job! If you get stuck then always ask for help.
+
+REMEMBER!!! The lone wolf starves during the long winter, but the pack survives ;)

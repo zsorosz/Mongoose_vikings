@@ -5,7 +5,6 @@ mongoose
   .connect("mongodb://127.0.0.1/valhalla", { family: 4 })
   .then(() => {
     console.log(`Connected to Mongo! Welcome to Valhalla!  🪓🛡️☠️`);
-    // remove all the vikings from the DB to start each save
   })
   .catch((err) => {
     console.error("Error connecting to DB", err);
